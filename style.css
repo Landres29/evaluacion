@@ -269,3 +269,46 @@ text-align: center;
 padding: 20px;
 margin-top: 40px;
 }
+
+/* ===== TABLET ===== */
+@media (max-width: 768px) {
+
+ .contenedor-sobre {
+  flex-direction: column;
+ }
+
+ .rejilla-habilidades {
+  grid-template-columns: repeat(2, 1fr);
+ }
+
+ .proyectos-modernos {
+  grid-template-columns: repeat(2, 1fr);
+ }
+
+ .habilidades-extra {
+  flex-direction: column;
+ }
+
+}
+
+/* ===== MOVIL ===== */
+@media (max-width: 480px) {
+
+ .rejilla-habilidades {
+  grid-template-columns: 1fr;
+ }
+
+ .proyectos-modernos {
+  grid-template-columns: 1fr;
+ }
+
+ nav a {
+  display: block;
+  margin-bottom: 10px;
+ }
+
+ header h1 {
+  font-size: 1.5rem;
+ }
+
+}
