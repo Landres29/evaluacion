@@ -1,52 +1,227 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio</title>
-    <link rel="stylesheet" href="style.css">
-    
-    rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    rel="stylesheet">
-    
-    </head>
-
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Mi evaluacion </title>
+ <link rel="stylesheet" href="style.css">
+</head>
 <body>
-    <header>
-        <div class="Logo">
-            <h2 class="logo-L">LC</h2>
-            <h2>Leonel Andres Cartes</h2>
-        </div>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#sobre-mi">Sobre mí</a></li>
-                <li><a href="#">Habilidades</a></li>
-                <li><a href="#">Proyectos</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section>
-            <article id="sobre-mi" class="sobre-mi">
-                <h2>Hola, soy <color class="nombre">Leonel Andres Cartes Cuevas</color>
-                </h2>
-                <br>
-                <h3>Estudiante de ingenieria en ciberseguridad</h3>
-                <br>
-                <p>Apasionado por crear sistemas web.
-                    Actualmente cursando la carrera de <strong>ingenieria en ciberseguridad</strong>
-                    en el instituto Técnico.
-                </p>
+<header>
+    <div class="contenedor-cabecera">
+        <h2 class="logo-L">LC</h2>
+        <h1>Leonel Andres Cartes</h1>
+    </div>
+    <nav>
+        <a href="#about">Sobre mi</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
+
+<main>
+
+    <!-- INICIO + SOBRE MI -->
+    <section id="inicio" class="inicio">
+        <h2 class="logo-L">Hola soy Leonel Andres Cartes Cuevas</h2>
+        <p><b>Soy estudiante de ingenieria en ciberseguridad</b> y alomejor no siempre me gusto el area informatica pero cada vez me voy enamorando mas.</p>
+
+        <article id="about" class="sobre-mi">
+            <h2>Sobre mi</h2>
+            <h3>Conoce un poco mas de mi</h3>
+
+            <div class="contenedor-sobre">
+
+                <article class="texto">
+                    <p><b>Hola soy leonel</b> y no siempre supe que queria ser y me meti a esta carrera relacionada a la informatica sin saber si me gustaria pero con el paso de el tiempo cada vez me fue gustando mas y termino siendo una carrera la cual me esta gustando mucho.</p>
+
+                    <p>Al ir metiendome mas de lleno a la informatica lo que mas me atrajo fue el ser desarrollador back-end. Actualmente estoy estudiando en el <b>Instituto de Inacap.</b></p>
+                </article>
+
+                <aside class="datos">
+                    <h4>Datos personales</h4>
+                    <p><b>Edad:</b> 19 años</p>
+                    <p><b>Ciudad:</b> Concepcion, Chile</p>
+                    <p><b>Email:</b> leonel@gmail.com</p>
+                    <p><b>Carrera:</b> Ingenieria en ciberseguridad</p>
+                    <p><b>Intereses:</b> Ciberseguridad y desarrollador back-end</p>
+                </aside>
+
+            </div>
+        </article>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades" class="habilidades">
+        <h2>Habilidades</h2>
+        <h3>Tecnologias y competencias</h3>
+
+        <div class="rejilla-habilidades">
+
+            <article class="tarjeta-habilidad">
+                <h4>HTML5</h4>
+                <p>Avanzado</p>
+                <div class="puntos">
+                    <span class="activo"></span>
+                    <span class="activo"></span>
+                    <span class="activo"></span>
+                    <span class="activo"></span>
+                    <span></span>
+                </div>
             </article>
-        </section>
-    </main>
+
+            <article class="tarjeta-habilidad">
+                <h4>CSS3</h4>
+                <p>Intermedio-Alto</p>
+                <div class="puntos">
+                    <span class="activo"></span>
+                    <span class="activo"></span>
+                    <span class="activo"></span>
+                    <span class="activo"></span>
+                    <span></span>
+                </div>
+            </article>
+
+            <article class="tarjeta-habilidad">
+                <h4>JavaScript</h4>
+                <p>Intermedio</p>
+                <div class="puntos">
+                    <span class="activo"></span>
+                    <span class="activo"></span>
+                    <span class="activo"></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </article>
+
+            <article class="tarjeta-habilidad">
+                <h4>Git / GitHub</h4>
+                <p>Intermedio</p>
+                <div class="puntos">
+                    <span class="activo"></span>
+                    <span class="activo"></span>
+                    <span class="activo"></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </article>
+
+            <article class="tarjeta-habilidad">
+                <h4>React</h4>
+                <p>Basico</p>
+                <div class="puntos">
+                    <span class="activo"></span>
+                    <span class="activo"></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </article>
+
+        </div>
+
+        <aside class="habilidades-extra">
+
+            <article class="caja-extra">
+                <h4>Lenguajes y Herramientas</h4>
+                <p>Trabajo principalmente con HTML, CSS y JavaScript para el desarrollo web.</p>
+            </article>
+
+            <article class="caja-extra">
+                <h4>Fortalezas</h4>
+                <ul>
+                    <li>Resolucion de problemas</li>
+                    <li>Aprendizaje rapido</li>
+                    <li>Trabajo en equipo</li>
+                </ul>
+            </article>
+
+            <article class="caja-extra">
+                <h4>Objetivo</h4>
+                <p>Seguir desarrollandome como desarrollador back-end y mejorar mis habilidades en ciberseguridad.</p>
+            </article>
+
+        </aside>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="proyectos">
+        <h2>Proyecto</h2>
+        <h3>Algunos de mis proyectos</h3>
+
+        <div class="proyectos-modernos">
+
+            <article class="tarjeta-proyecto">
+                <h4>Web Personal</h4>
+                <p>Pagina web sobre mi con HTML y CSS</p>
+                <span class="etiqueta">HTML</span>
+                <span class="etiqueta">CSS</span>
+            </article>
+
+            <article class="tarjeta-proyecto">
+                <h4>Seguridad</h4>
+                <p>Simulador de pruebas basicas</p>
+                <span class="etiqueta">Seguridad</span>
+            </article>
+
+            <article class="tarjeta-proyecto">
+                <h4>Dashboard</h4>
+                <p>Visualizacion de datos simple</p>
+                <span class="etiqueta">Datos</span>
+            </article>
+
+            <article class="tarjeta-proyecto">
+                <h4>API Backend</h4>
+                <p>Servidor con rutas y datos</p>
+                <span class="etiqueta">Node</span>
+            </article>
+
+            <article class="tarjeta-proyecto">
+                <h4>Sitio Web</h4>
+                <p>Diseño responsivo adaptable</p>
+                <span class="etiqueta">Responsive</span>
+            </article>
+
+            <article class="tarjeta-proyecto">
+                <h4>Base de Datos</h4>
+                <p>Modelo con consultas SQL</p>
+                <span class="etiqueta">SQL</span>
+            </article>
+
+        </div>
+
+        <aside class="info-proyectos">
+            <p>Estos proyectos representan mi proceso de aprendizaje en desarrollo web y ciberseguridad.</p>
+        </aside>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label>Nombre:</label>
+            <input type="text" placeholder="Tu nombre">
+
+            <label>Email:</label>
+            <input type="email" placeholder="tu@email.com">
+
+            <label>Asunto:</label>
+            <input type="text" placeholder="Asunto">
+
+            <label>Mensaje:</label>
+            <textarea rows="4" placeholder="Mensaje"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+</main>
+
+<footer>
+<p>&copy; 2026 Mi Blog - Leonel andres cartes</p>
+</footer>
 
 </body>
-
 </html>
