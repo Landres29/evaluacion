@@ -312,3 +312,45 @@ margin-top: 40px;
  }
 
 }
+
+/* TABLA DATOS */
+.tabla-datos {
+ width: 100%;
+ border-collapse: collapse;
+}
+
+.tabla-datos th {
+ text-align: left;
+ color: var(--primary);
+ padding: 5px;
+}
+
+.tabla-datos td {
+ padding: 5px;
+}
+
+.tabla-datos tr {
+ border-bottom: 1px solid var(--border);
+}
+
+/* TABLA HABILIDADES */
+.tabla-habilidades {
+ margin-top: 30px;
+}
+
+.tabla-habilidades table {
+ width: 100%;
+ border-collapse: collapse;
+ background: white;
+}
+
+.tabla-habilidades th {
+ background: var(--primary);
+ color: white;
+ padding: 10px;
+}
+
+.tabla-habilidades td {
+ padding: 10px;
+ border-bottom: 1px solid var(--border);
+}
